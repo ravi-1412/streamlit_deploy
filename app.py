@@ -3,7 +3,7 @@ import streamlit as st
 def main():
   st.title("Division of Two Numbers")
   html_temp = """
-  <div style="background-color:black;padding:10px">
+  <div style="background-color:red;padding:10px">
   <h2 style="color:black;text-align:center;">Division of 2 Numbers</h2>
   </div>
   """
@@ -11,12 +11,10 @@ def main():
   num1 = st.number_input("Number 1")
   num2 = st.number_input("Number 2")
   
-  if(num1==0):
-    result = 0
+  if(num1==0 and num2==0):
+    result = "UNDEFINED"
   elif (num2 ==0):
     result = "UNDEFINED"
-  elif (num1==0 and num2==0):
-    result ="UNDEFINED"
   else:
     result=num1/num2
   
