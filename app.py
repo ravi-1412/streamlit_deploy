@@ -1,7 +1,7 @@
 import streamlit as st 
 
 def main():
-  st.title("Division of Two Numbers")
+  st.title("APP MADE BY 21f1004705")
   html_temp = """
   <div style="background-color:red;padding:10px">
   <h2 style="color:black;text-align:center;">Division of 2 Numbers</h2>
