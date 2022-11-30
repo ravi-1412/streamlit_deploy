@@ -13,8 +13,10 @@ def main():
   
   if(num1==0):
     result = 0
-  elif (num2 ==0) or (num1==0 and num2==0):
+  elif (num2 ==0):
     result = "UNDEFINED"
+  elif (num1==0 and num2==0):
+    result ="UNDEFINED"
   else:
     result=num1/num2
   
